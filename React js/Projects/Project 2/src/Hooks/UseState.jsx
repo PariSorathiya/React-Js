@@ -8,7 +8,8 @@ export default function UseState() {
   };
 
   return (
-    <div className="flex justify-center p-5 0 h-screen bg-black">
+    <div className="flex justify-center p-50 0 h-screen bg-black bg-[url(">
+
       <div className="flex flex-col items-center border-2 border-white w-80 h-80 p-6">
         {/* Title */}
         <h1 className="font-bold font-serif text-4xl text-white underline mb-4">Calculator</h1>

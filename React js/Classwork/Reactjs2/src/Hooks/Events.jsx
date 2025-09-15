@@ -4,7 +4,7 @@ export default function Events() {
     const [name, setName]=useState("")
     // const greet = (name)=>{
         const greet = ()=>{
-        console.log("Hello ", name);
+        console.log("Hello ",name);
     }
   return (
     <div>
