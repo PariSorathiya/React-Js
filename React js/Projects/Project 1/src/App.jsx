@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Component/Navbar'
-import Project from './Component/Project'
+import Herosection from './Component/Herosection'
 
 export default function App() {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Project />
+      <Navbar/>
+      <Herosection/>
     </div>
   )
 }

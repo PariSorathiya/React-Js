@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-export default function Project() {
+export default function Cards() {
     const [name, setName] = useState("")
     const [age, setage] =useState("")
 
@@ -12,7 +12,7 @@ export default function Project() {
     }
   return (
     <div>
-        <input type="text" placeholder='Enter your name' onChange={(e)=>setName(e.target.value)} />
+       <input type="text" placeholder='Enter your name' onChange={(e)=>setName(e.target.value)} />
         <input type="text" placeholder='Enter your age' onChange={(e)=>setage(e.target.value)} />
 
         <button onClick={addData}>Add Data</button>
