@@ -1,10 +1,10 @@
 import React from 'react'
-import Cards from './Events/Cards'
+import Beauty from './Events/Beauty'
 
 export default function App() {
   return (
     <div>
-      <Cards />
+      <Beauty/>
     </div>
   )
 }
