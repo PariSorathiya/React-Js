@@ -26,7 +26,7 @@ export default function Beauty() {
                 </div>
                 {
                     record.map((e,i) => {
-                        return <ul key={i} className='ml-10 mt-5 text-center flex-wrap text-white'>
+                        return <ul key={i} className='ml-10 mt-5 text-center w-full flex-wrap text-white'>
                             <li className='border-1 text-xl  w-80 h-50  rounded-2xl '><li className='border-1 text-xl w-80 h-50 rounded-2xl flex justify-center items-center'>
                                 <img src={e.Url} alt={e.Name}  className=" w-80 h-49 object-cover rounded-xl"/>
                             </li></li>
